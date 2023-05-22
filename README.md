@@ -6,7 +6,7 @@
 -🙂 Developed by nadia pourazizi
 - Created - 2022-11-26
 
-- Technologies Used - Html , css ,scss
+- Technologies Used - Html , css ,scss , js
 
 - Hooks Used : useState 
 
