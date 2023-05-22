@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+body #parent {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(204, 199, 199, 0.9529411765);
+}
+body #parent #div1 {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  padding-top: 2px;
+}
+body #parent #div1 .div1_1 span {
+  font-size: 14px;
+  font-family: "Cinzel", serif;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+body #parent #div1 .div1_1 span a {
+  color: black;
+}
+body #parent #div2 {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  margin: 10px 0 26px 0;
+}
+body #parent #div2 .div2_1 h4 {
+  font-size: 8vw;
+  color: rgba(0, 0, 0, 0.884);
+  line-height: 0.7;
+  padding-top: 1.5vw;
+  font-family: "EB Garamond", serif;
+}
+body #parent #div3 {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+body #parent #div3 .div3_1 h4 {
+  font-size: 8vw;
+  color: rgba(0, 0, 0, 0.884);
+  line-height: 0.7;
+  padding-top: 1.5vw;
+  font-family: "EB Garamond", serif;
+}
+body #parent #div3 #div3_1_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #parent #div3 #div3_1_2 figure {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body #parent #div3 #div3_1_2 figure img {
+  border: 4px groove black;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body #parent #div4 {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+body #parent #div4 .div4_1 h4 {
+  font-size: 8vw;
+  color: rgba(0, 0, 0, 0.884);
+  line-height: 0.7;
+  padding-top: 1.5vw;
+  font-family: "EB Garamond", serif;
+}
+body #parent #div4 #div4_1_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #parent #div4 #div4_1_2 figure {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body #parent #div4 #div4_1_2 figure img {
+  border: 4px groove black;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body #parent #div5 {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+body #parent #div5 .div5_1 h4 {
+  font-size: 8vw;
+  color: rgba(0, 0, 0, 0.884);
+  line-height: 0.7;
+  padding-top: 1.5vw;
+  font-family: "EB Garamond", serif;
+}
+body .outpage {
+  width: 190%;
+  height: 360vh;
+  background-color: #b9b4b4;
+  position: absolute;
+  transform: rotate(133deg);
+  top: 32%;
+  left: 70%;
+  transition: 1.5s;
+}
+body .outpage2 {
+  top: -147%;
+  left: -20%;
+}
+body .inpage {
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 1.4s;
+  overflow: hidden;
+}
+body .inpage div {
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+body .inpage div figure {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .inpage div figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 4px groove black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+body .inpage div figure img:hover {
+  transform: rotate(-1deg);
+  transform-origin: 1%;
+  overflow: hidden;
+}
+body .inpage div h4 {
+  font-size: 3vw;
+  color: rgba(0, 0, 0, 0.884);
+  line-height: 0.7;
+  padding-top: 1.5vw;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+body .inpage div div {
+  text-align: center;
+  padding: 25px 0;
+}
+body .inpage div div i {
+  cursor: pointer;
+}
+body .inpage div div span {
+  font-size: 14px;
+  font-family: "Cinzel", serif;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
